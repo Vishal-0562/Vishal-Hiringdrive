@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #1d4354;
+}
+
+.navbar-nav li a {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.navbar-nav a:hover {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2dcc94;
+}
+
+.navbar .log {
+    padding: 8px 20px;
+    color: #FFF;
+    line-height: 1;
+    background-color: #1d4354;
+}
+
+.navbar .log span {
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.navbar .bell {
+    font-size: 40px;
+    color: #FFF;
+    line-height: 1;
+    border-width: 0;
+    padding: 0;
+    background-color: transparent;
+    margin: 0 10px 0 0;
+}
+
+.active {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+/* Header */
+
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.heading {
+    padding: 2rem;
+    width: 75%;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.button1-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 0%;
+    margin: 30px 20px 0;
+    width: 12%;
+    overflow-x: hidden;
+}
+
+.button1-wrapper button {
+    width: 100%;
+    height: 40px;
+    background: #00c47f;
+    color: #FFF;
+    border: none;
+    outline: none;
+}
+
+.button2-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 0%;
+    margin: 30px 20px 0;
+    width: 12%;
+    overflow-x: hidden;
+}
+
+.button2-wrapper button {
+    width: 100%;
+    height: 40px;
+    background: #FFF;
+    color: #00c47f;
+    border: none;
+    outline: none;
+}
+
+/* Draft Cards */
+.Draft {
+    border-bottom: 2px solid rgb(52, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Draft span h6 {
+    color: #00c47f;
+    cursor: pointer;
+
+}
+
+.developer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.developer-item span span {
+    color: rgb(108, 106, 106);
+}
+
+.developer-item span i {
+    color: #00c47f;
+    cursor: pointer;
+}
+.jobpost{
+    width: 100%;
+    height: auto;
+   
+}
+.job{
+    padding:20px;
+    border-radius: 10px;
+    border: 1px solid rgba(88, 87, 89, 0.619);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: large;
+    cursor: pointer;
+}
+.postitem{
+    margin:50px 0px;
+    cursor: pointer;
+}
+.postitem button{
+    background-color:#00c47f; 
+    padding:10px 15px;
+    border-radius:15px; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer */
+.footer-section {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+
+}
+
+.footer-section li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-section li {
+    margin-top: 10px;
+}
